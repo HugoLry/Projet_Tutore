@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.logo{
+    border-radius: 45%;
+    border-color: black;
+    border-style: solid;
+    display: block;
+    width: 5%;
+    text-align: center;
+    margin-left: 150px;
+    height: 40px;
+}
+
+nav{
+    position: absolute;
+}
+
+nav.contact{
+    font-size: 1.5rem;
+    right: 2%;
+    top: 20px;
+}
+
+nav.a_propos{
+    font-size: 1.5rem;
+    right: 7%;
+    top: 20px;
+}
+
+.titre{
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+    font-size: 3rem;
+}
+
+.voyante{
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+    border-radius: 30%;
+}
+
+.entrez{
+    margin: auto;
+    margin-top: 20px;
+}
