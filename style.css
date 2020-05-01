@@ -34,22 +34,21 @@ nav.a_propos{
     top: 20px;
 }
 
-.titre{
-    text-align: center;
-    margin: auto;
-    margin-bottom: 20px;
-    font-size: 3rem;
-}
-
 .voyante{
     margin: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    display: block;
-    border-radius: 30%;
+    height: 631px;
+    width: 693px;
 }
 
 .entrez{
+    text-align: right;
+    font-size: 2.5rem;
     margin: auto;
-    margin-top: 20px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+.entrez a{
+    text-decoration: none;
+    color: black;
 }

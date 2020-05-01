@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.logo{
+    border-radius: 45%;
+    border-color: black;
+    border-style: solid;
+    display: block;
+    width: 5%;
+    text-align: center;
+    margin-left: 150px;
+    height: 40px;
+}
+
+nav{
+    position: absolute;
+}
+
+nav.contact{
+    font-size: 1.5rem;
+    right: 2%;
+    top: 20px;
+}
+
+nav.a_propos{
+    font-size: 1.5rem;
+    right: 7%;
+    top: 20px;
+}
+
+.titre{
+    text-align: left;
+    margin-top: 200px;
+    margin-left: 400px;
+    font-size: 5rem;
+}
+
+.degrade{
+    background: linear-gradient(to left, #810909, #F48574,#F2D173);
+    height: 1000px;
+}
+
+.img_accueil{
+    width: 562px;
+    height: 474px;
+    position: absolute;
+    left: 1000px;
+    top: 200px;
+}
+
+.sous_titre{
+    font-size: 2rem;
+    width: 50%;
+    margin-left: 10%;
+    text-align: center;
+    position: relative;
+    top: 300px;
+    color: white;
+}
+
+.icone_parent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    top: 420px
+}
+
+.icone{
+    height: 200px;
+    width: 200px;
+    margin: 15px 150px 15px 150px;
+}
+
+.prefere{
+    text-align: center;
+    font-size: 2rem;
+    position: relative;
+    top: 450px;
+}
