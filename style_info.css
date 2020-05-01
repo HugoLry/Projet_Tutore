@@ -26,12 +26,26 @@ nav.contact{
     font-size: 1.5rem;
     right: 2%;
     top: 20px;
+    font-family: 'Roboto', sans-serif;    
+    text-decoration: none;
+    color: black;
+}
+
+.contact a{
+    text-decoration: none;
+    color: black;
 }
 
 nav.a_propos{
     font-size: 1.5rem;
     right: 7%;
     top: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.a_propos a{
+    text-decoration: none;
+    color: black;
 }
 
 .titre{
@@ -42,12 +56,12 @@ nav.a_propos{
 }
 
 .degrade{
-    background: linear-gradient(to left, rgb(48, 48, 255), rgb(143, 143, 255));
-    height: 1000px;
+    background: linear-gradient(to left, #1B3D6C, #679CE2, #A4DDF3);
+    height: 1300px;
 }
 
 .dessin_info{
-    width: 500px;
+    width: 750px;
     height: 500px;
     position: absolute;
     left: 1000px;
@@ -65,22 +79,42 @@ nav.a_propos{
 }
 
 .icone_parent{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    columns: 3 50px;
     position: relative;
     top: 420px
 }
 
+.icone_parent p{
+    color: white;
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
 .icone{
     height: 200px;
-    width: 200px;
-    margin: 15px 150px 15px 150px;
+    width: 250px;
+    margin-left: 180px;
 }
+
+.icone_dev_web{
+    height: 205px;
+    width: 290px;
+    margin-left: 170px;
+}
+
+.icone_inte_web{
+    height: 205px;
+    width: 280px;
+    margin-left: 175px;
+}
+
 
 .prefere{
     text-align: center;
     font-size: 2rem;
     position: relative;
     top: 450px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 50px;
 }
