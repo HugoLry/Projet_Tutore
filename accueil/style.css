@@ -54,21 +54,20 @@ nav a {
 main{
     display: block;
     position: relative;
-    background-image: url(img/back_accueil.svg);
-    background-position: top;
+    background-image: url(img/back_accueil2.svg);
+    background-position: top, bottom;
     background-repeat: no-repeat;
-    background-size: 100vw;
+    background-size: 100%;
     width:100vw;
-    height: 830px;
-    border: black solid 1px;
+    border: rgba(0, 0, 0, 0) solid 1px;
     color: white;
     margin-top: 5.72%;
-    
+
     /* background-color: white ,-moz-linear-gradient(34.44% 83.12% 0deg,rgba(45, 83, 136, 1) 0%,rgba(117, 166, 230, 1) 45.9%,rgba(255, 168, 126, 1) 65.6%,rgba(244, 133, 116, 1) 82.7%,rgba(198, 83, 73, 1) 100%);
     background : -webkit-linear-gradient(0deg, rgba(45, 83, 136, 1) 0%, rgba(117, 166, 230, 1) 45.9%, rgba(255, 168, 126, 1) 65.6%, rgba(244, 133, 116, 1) 82.7%, rgba(198, 83, 73, 1) 100%);
-    background : linear-gradient(90deg, rgba(45, 83, 136, 1) 0%, rgba(117, 166, 230, 1) 45.9%, rgba(255, 168, 126, 1) 65.6%, rgba(244, 133, 116, 1) 82.7%, rgba(198, 83, 73, 1) 100%);;
-     */
-    
+    background : linear-gradient(90deg, rgba(45, 83, 136, 1) 0%, rgba(117, 166, 230, 1) 45.9%, rgba(255, 168, 126, 1) 65.6%, rgba(244, 133, 116, 1) 82.7%, rgba(198, 83, 73, 1) 100%);; */
+
+
 }
 
 
@@ -77,75 +76,174 @@ main h1{
     display: block;
     margin-top:9.64%;
     margin-left: 7%;
-    
+
     font-size: 4.25rem;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
-    
+
     width: 36.82vw;
-    
+
 }
 
 main .box{
 
     margin-left: 75px;
-    font-size: 25px;
+    font-size: 1.5625rem;
     font-family: 'Roboto', sans-serif;
     margin-top: 62px;
-    
+
     text-align: center;
     width:47.6vw;
-    height: 9.2%;
+
     align-items: center;
-   
+    margin-bottom: 5.2%;
+}
 
-
+main .box .p1{
+    margin-bottom: 8%;
 }
 
 .bouton1{
-    height: 86px;
-    width: 348px;
-    font-size: 35px;
+    height: 5.375rem;
+    width: 21.75rem;
+    font-size: 2rem;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     border-radius: 50px;
     border: none;
-    margin-top: 62px;
+    text-decoration: none;
+    background-color: white;
+    color: black;
 
+
+  
+  cursor: pointer;
+  padding: 1rem;
+  transition: all 0.5s;
+  position: relative;
 }
+
+.bouton1::after {
+    content: ">";
+    font-family: 'Poppins',sans-serif;
+    font-size: 3rem;
+    position: absolute;
+    left: 85%;
+    top: 7%;
+    right: 5%;
+    bottom: 0;
+    opacity: 0;
+}
+
+.bouton1:hover {
+    background: #ffffff;
+    transition: all 0.5s;
+    border-radius: 50px;
+    box-shadow: 0px 6px 15px #42424261;
+    padding: 1rem 3.5rem 1rem 1.5rem;
+    
+}
+
+.bouton1:hover::after {
+    opacity: 1;
+    transition: all 0.5s;
+}
+
 
 
 main .p2{
-
-    
-    
-    margin-top: 58px;
-    margin-bottom: 28px;
-
+    margin-top: 8%;
+    margin-bottom: 3%;
 
 }
+
 .bouton2{
-    height: 64px;
-    width: 287px;
-    font-size: 25px;
+
+    
+    padding: 10px;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     border-radius: 50px;
     border: none;
     background-color:#A4C6F3;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 10%;
+    
+    cursor: pointer;
+    padding: 0.65rem;
+    transition: all 0.5s;
+    position: relative;
+}
 
+.bouton2::after {
+    content: ">";
+    font-family: 'Poppins',sans-serif;
+    font-size: 2rem;
+    position: absolute;
+    left: 85%;
+    top: 10%;
+    right: 5%;
+    bottom: 0;
+    opacity: 0;
+}
+
+.bouton2:hover {
+    background: #A4C6F3;
+    transition: all 0.5s;
+    border-radius: 50px;
+    box-shadow: 0px 6px 15px #42424261;
+    padding: 0.65rem 2.5rem 0.65rem 1.5rem;
+    
+}
+
+.bouton2:hover::after {
+    opacity: 1;
+    transition: all 0.5s;
 }
 .bouton3{
-    height: 64px;
-    width: 287px;
-    font-size: 25px;
+
+    font-size: 1.5625rem;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     border-radius: 50px;
     margin-left: 2.13%;
     border: none;
     background-color: #F48574;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
 
+    cursor: pointer;
+    padding: 0.65rem;
+    transition: all 0.5s;
+    position: relative;
+}
+
+.bouton3::after {
+    content: ">";
+    font-family: 'Poppins',sans-serif;
+    font-size: 2rem;
+    position: absolute;
+    left: 85%;
+    top: 10%;
+    right: 5%;
+    bottom: 0;
+    opacity: 0;
+}
+
+.bouton3:hover {
+    background: #F48574;;
+    transition: all 0.5s;
+    border-radius: 50px;
+    box-shadow: 0px 6px 15px #42424261;
+    padding: 0.65rem 2.5rem 0.65rem 1.5rem;
+    
+}
+
+.bouton3:hover::after {
+    opacity: 1;
+    transition: all 0.5s;
 }
 
 
