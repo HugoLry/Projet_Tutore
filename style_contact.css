@@ -1,0 +1,214 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-width: 1000px;
+}
+
+nav {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 1.875rem;
+
+    height: 140px;
+}
+
+nav a img {
+    width: 216px;
+    height: 101px;
+    margin-left: 46px;
+    margin-top: 39px;
+}
+
+nav a[href="page_a-propos.html"] {
+    width: 118px;
+    height: 37px;
+    margin-right: 69px;
+    margin-top: 56px;
+    float: right;
+}
+
+nav a[href="page_contact.html"] {
+    width: 102px;
+    height: 37px;
+    margin-right: 46px;
+    margin-top: 56px;
+    float: right;
+    color: #ADADAD;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    font-family: 'Poppins', sans-serif;
+}
+
+header h1 {
+    height: 11.815vh;
+
+    font-weight: 800;
+    font-size: 4.375rem;
+
+    margin: 8.073% 0 4.375% 10.417%;
+    min-width: 1000px;
+}
+
+header h1+img {
+    width: 250px;
+    height: 280px;
+
+    position: absolute;
+    top: 36.28%;
+    left: 56%;
+}
+
+form,
+main {
+    width: 63.2vw;
+    height: 46.4vh;
+    min-width: 1000px;
+
+    font-family: 'Poppins', sans-serif;
+
+    background: rgb(164, 221, 243);
+    background: linear-gradient(232deg, rgba(164, 221, 243, 1) 0%, rgba(164, 198, 243, 1) 33.3333%, rgba(117, 166, 230, 1) 66.6666%, rgba(45, 83, 136, 1) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    border-radius: 0 70px 70px 0;
+    min-width: 1000px;
+    min-height: 450px;
+}
+
+div,
+p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 0.9375rem;
+
+    display: inline-block;
+}
+
+div:nth-child(1) {
+    margin: 4.429% 0 0 42.362%;
+}
+
+div:nth-child(2) {
+    margin: 1.477% 0 0 40.591%;
+}
+
+div:nth-child(3) {
+    margin: 1.477% 0 0 37.639%;
+}
+
+label {
+    display: inline-block;
+}
+
+label[for="nom"] {
+    width: 37px;
+}
+
+label[for="prenom"] {
+    width: 62px;
+}
+
+label[for="email"] {
+    width: 103px;
+}
+
+input {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 0.9375rem;
+
+    height: 25px;
+
+    border: 0;
+    border-radius: 10px;
+
+    padding: 0;
+
+    margin-left: 20px;
+}
+
+input[name="nom"],
+input[name="prenom"] {
+    width: 187px;
+}
+
+input[name="email"] {
+    width: 470px;
+}
+
+.envoyer {
+    width: 90px;
+    height: 30px;
+
+    font-size: 1.25rem;
+    color: white;
+    background-color: unset;
+
+    float: right;
+    margin-right: 27px;
+}
+
+textarea {
+    width: 28.918vw;
+    height: 16.803vh;
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 0.9375rem;
+
+    border: 0;
+    border-radius: 50px;
+    padding: 23px 40px 23px 40px;
+    margin: 4.0599% 0 0 45.757%;
+    min-width: 515px;
+    min-height: 175px;
+}
+
+p {
+    margin: 1.412%;
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 250px;
+    height: 250px;
+
+    border-radius: 150px;
+
+    background-color: white;
+    color: black;
+
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 2.1875rem;
+}
+
+@media screen and (max-width: 1600px){
+    header h1+img {
+        top: 315px;
+        left: 865px;
+    }
+}

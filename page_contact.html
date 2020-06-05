@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700;800&family=Roboto:wght@500;700&display=swap"
+        rel="stylesheet">-->
+    <link rel="stylesheet" type="text/css" href="style_contact.css" />
+    <title>Contact - MMIWork</title>
+</head>
+
+<body>
+    <!--Entête en html de la page qui contient le menu, le titre-->
+    <header>
+        <nav>
+            <a href="index.html"><img src="img/logo.png" alt="MMIWork"></a>
+            <a href="page_a-propos.html">à propos</a>
+            <a href="page_contact.html">contact</a>
+        </nav>
+
+        <h1>Une question à lui poser ?</h1>
+        <img src="img/voyante-contact.png" alt="">
+    </header>
+    <!--Formulaire en mode "post" c'est a dire que les données n'apparaissent pas dans l'URL, les données sont envoyé au fichier "form_contact.php"-->
+    <form method="POST" action="form_contact.php">
+        <div>
+            <!--Libellé nommé "Nom" lier avec le for à la ligne du dessous-->
+            <label for="nom">Nom</label>
+            <!--L'élément input de type text permet la saisie de données, il est relié avec le for="nom" de la ligne du dessus et il est obligatoire avec l'attribut required-->
+            <input type="text" name="nom" required>
+        </div>
+        <div>
+            <!--Libellé nommé "Prénom" lier avec le for à la ligne du dessous-->
+            <label for="prenom">Prénom</label>
+            <!--L'élément input de type text permet la saisie de données, il est relié avec le for="prenom" de la ligne du dessus et il est obligatoire avec l'attribut required-->
+            <input type="text" name="prenom" required>
+        </div>
+        <div>
+            <!--Libellé nommé "Adresse Mail" lier avec le for à la ligne du dessous-->
+            <label for="email">Adresse Mail</label>
+            <!--L'élément input de type email permet la saisie de données, il est relié avec le for="email" de la ligne du dessus et il est obligatoire avec l'attribut required-->
+            <input type="email" name="email" required>
+        </div>
+        <!--L'élément textarea permet la saisie de données en forme de text, il est relié avec le for="message" de la ligne du dessus et il est obligatoire avec l'attribut required-->
+        <textarea name="message" cols="40" rows="8" placeholder="Votre message" required></textarea>
+        <!--L'élément input de type submit permet l'envoyer des données vers le fichier "form_contact.php" et il est obligatoire sans attribut-->
+        <input class="envoyer" type="submit">
+        <!--Fin du formulaire et donc des données transmises au fichier "form_contact.php"-->
+    </form>
+
+    <!--Paragraphe informatif sur l'utilisation des données pour le visiteur, conformément avec le RGPD-->
+    <p>En soumettant ce formulaire, j'accepte que les informations saisies dans ce formulaire soient utilisées,
+        exploitées, traitées pour permettre de me recontacter et pour m’envoyer la newsletter.</p>
+
+</body>
+
+</html>

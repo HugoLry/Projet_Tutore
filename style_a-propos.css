@@ -1,0 +1,120 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-width: 1000px;
+}
+
+nav {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 1.875rem;
+    height: 140px;
+}
+
+nav a img {
+    width: 216px;
+    height: 72.14%;
+    margin-left: 46px;
+    margin-top: 39px;
+}
+
+nav a[href="page_a-propos.html"] {
+    width: 118px;
+    height: 37px;
+    margin-right: 69px;
+    margin-top: 56px;
+    float: right;
+    color: #929292;
+}
+
+nav a[href="page_contact.html"] {
+    width: 102px;
+    height: 37px;
+    margin-right: 46px;
+    margin-top: 56px;
+    float: right;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    font-family: 'Poppins', sans-serif;
+    background-image: url(img/back_a-propos.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0 55px 55px 0;
+    padding: 2.344% 5.209% 3.3855% 18.49%;
+    margin: 5.73% 0 9.896% 0;
+    width: 86.71875%;
+    min-width: 1100px;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 4.375rem;
+    color: white;
+    margin: 0 0 0 160px;
+    height: 100px;
+}
+
+.text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 1.5625rem;
+    color: white;
+    margin: 0 0 90px 0;
+}
+
+.prenom {
+    font-weight: 800;
+    font-size: 3.4375rem;
+    margin: -13px 0 0 0;
+    height: 70px;
+}
+
+.nom {
+    font-weight: 300;
+    font-size: 2.1875rem;
+    margin: -10px 0 30px 0;
+    height: 50px;
+}
+
+.lien-cv {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 1.25rem;
+    text-decoration: none;
+    color: black;
+}
+
+.equipe {
+    columns: 4;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    height: 395px;
+}
+
+.avatar {
+    width: 210px;
+    height: 210px;
+}
+
+.personne1,
+.personne4 {
+    width: 210px;
+}
+
+.personne2,
+.personne3 {
+
+    width: 240px;
+}
