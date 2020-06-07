@@ -1,0 +1,260 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+    background-image: url(img/back_quiz.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top -28% left;
+    min-width: 1000px;
+}
+
+/*NAVIGATION*/
+nav {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 1.875rem;
+
+    height: 140px;
+}
+
+nav a img {
+    width: 216px;
+    height: 101px;
+    margin: 39px 0 0 46px;
+}
+
+nav a[href="page_a-propos.html"] {
+    width: 118px;
+    height: 37px;
+    margin: 55px 70px 0 0;
+    float: right;
+}
+
+nav a[href="page_contact.html"] {
+    width: 102px;
+    height: 37px;
+    margin: 55px 45px 0 0;
+    float: right;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+/*POLICE D'ECRITURE DU DOCUMENT*/
+form,
+header {
+    font-family: 'Poppins', sans-serif;
+}
+
+/*DIMENSION ET COULEUR DE POLICE DU HEADER*/
+header {
+    height: 70.65vh;
+    color: white;
+}
+
+/*DIMENSION, MARGIN & PLACEMENT DE LA VOYANTE PRESENT DANS LE HEADER*/
+header>img {
+    width: 22.155vw;
+    height: 25.187vw;
+    margin: 1.563% 15.365% 0 0;
+    float: right;
+    min-width: 225px;
+    min-height: 255px;
+}
+
+/*POLICE D'ECRITURE, POSITIONEMENT & DIMENSIONS MINIMALES DU H1 DANS LE HEADER*/
+header h1 {
+    margin: 0;
+    font-weight: 800;
+    font-size: 4.375rem;
+    text-align: center;
+
+    position: absolute;
+    top: 45.827%;
+    left: 15.765%;
+    min-width: 280px;
+    min-height: 105px;
+}
+
+/*POLICE D'ECRITURE, POSITIONEMENT & DIMENSIONS MINIMALES DU H2 DANS LE HEADER*/
+header h2 {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1.5625rem;
+    text-align: center;
+
+    position: absolute;
+    top: 64.922%;
+    left: 7.53%;
+    min-width: 705px;
+    min-height: 60px;
+}
+
+/*DIMENSION DU FORMULAIRE AKA LE QUESTIONNAIRE*/
+form {
+    height: 6136.2px;
+    min-width: 1200px;
+}
+
+/*POLICE D'ECRITURE ET MARGIN DU H2 DU FORMULAIRE*/
+form h2 {
+    margin: 0;
+    font-size: 6.875rem;
+    font-weight: 700;
+}
+
+/*DIMENSIONS, MARGIN ET POLICE D'ECRITURE DU H1 DU FORMULAIRE*/
+form h1 {
+    width: 650px;
+    height: 55px;
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-align: center;
+
+    margin: 0 0 25px 0;
+}
+
+form section:nth-child(2n) h1 {
+    height: 115px;
+}
+
+/*POLICE D'ECRITURE ET DIMENSION DES LABELS*/
+div {
+    height: 92px;
+    margin-top: 15px;
+    border-radius: 45px;
+    background-color: white;
+
+    padding: 0 0 0 70px;
+
+    display: flex;
+    align-items: center;
+}
+
+/*POLICE D'ECRITURE ET DIMENSION DES LABELS*/
+/*Pour agrandir la zone cliquable des questions on a mis une partie des paddings sur les labels plutôt que les divs réponses*/
+label {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.875rem;
+    font-weight: 400;
+    padding: 30px 100px 30px 10px;
+}
+
+/*GESTION DU BOUTON "Résultats"*/
+input[type="submit"] {
+    width: 350px;
+    height: 85px;
+
+    font-size: 2.1875rem;
+    font-weight: 600;
+    border: 0;
+    border-radius: 45px;
+    background-color: white;
+    outline: none;
+}
+
+/*PLACEMENT DES ELEMENTS PRINCIPAUX*/
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 1000px;
+}
+
+/*PLACEMENT ET ESPACEMENT DES QUESTIONS*/
+section:nth-child(2n) {
+    float: left;
+    margin: 6.771% 0 0 9.896%;
+}
+
+section:nth-child(2n+1) {
+    float: right;
+    margin: 6.771% 9.896% 0 0;
+}
+
+/*PLACEMENT ET ESPACEMENT DES ELEMENTS SPECIAUX*/
+section:nth-child(8) h1 {
+    width: 1000px;
+}
+
+section:nth-child(9) {
+    margin: 150px 350px 0 0;
+}
+
+/*BOUTON "résultats" HOVER*/
+/*Comme le bouton est un input il est impossible de lui appliquer un ::after ou ::before donc j'ai triché j'ai mis la suite du bouton dans la section*/
+section:nth-child(9) {
+    display: inline-block;
+    min-width: 350px;
+    border-radius: 45px;
+    transition: all 0.5s;
+}
+
+section:nth-child(9)::after {
+    content: ">>";
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    padding-right: 30px;
+    opacity: 0;
+}
+
+section:nth-child(9):hover {
+    box-shadow: 0px 6px 15px #42424261;
+    background-color: white;
+    transition: all 0.5s;
+}
+
+section:nth-child(9):hover::after {
+    opacity: 1;
+    transition: all 0.5s;
+}
+
+/*AJOUT DE MEDIAS QUERIES POUR LE FLUIDITE*/
+@media screen and (max-width: 1000px) {
+    header h1 {
+        top: 315px;
+        left: 160px;
+    }
+
+    header h2 {
+        top: 480px;
+        left: 75px;
+    }
+}
+
+@media screen and (max-width: 1750px) {
+    body {
+        background-position: top -70% left;
+    }
+}
+
+@media screen and (max-width: 1550px) {
+    body {
+        background-position: top 250px left;
+    }
+
+    section div {
+        max-width: 1000px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    section {
+        margin: 6.771% 0 0 0;
+    }
+
+    body {
+        background-position: top 250px left;
+    }
+}

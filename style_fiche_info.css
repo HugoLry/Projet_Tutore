@@ -1,0 +1,788 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    min-height: 100vh;
+}
+
+/*NAVIGATION*/
+nav {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 1.875rem;
+
+    height: 140px;
+}
+
+nav a img {
+    width: 216px;
+    height: 101px;
+    margin: 39px 0 0 46px;
+}
+
+nav a[href="page_a-propos.html"] {
+    width: 118px;
+    height: 37px;
+    margin: 55px 70px 0 0;
+    float: right;
+}
+
+nav a[href="page_contact.html"] {
+    width: 102px;
+    height: 37px;
+    margin: 55px 45px 0 0;
+    float: right;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.titre{
+    text-align: left;
+    margin-top: 307px;
+    margin-left: 17.7%;
+    margin-bottom: 0px;
+    font-size: 5rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+}
+
+.degrade{
+    background-image: url(img/back_metier-info.svg);
+    background-repeat: no-repeat;
+    height: 3145px;
+    margin-top: -32px;
+}
+
+.dessin_info{
+    width: 435px;
+    height: 490px;
+    position: absolute;
+    right: 15.7%;
+    top: 360px;
+}
+
+.fiche{
+    background-color: white;
+    position: relative;
+    top: 500px;
+    margin: 0 14.48%;
+    border-radius: 70px;
+    padding: 0 7.2%;
+    padding-top: 35px;
+    width: 71%;
+}
+
+.fiche header h1{
+    text-align: left;
+    font-family: 'Poppins', 'sans-serif';
+    font-weight: 900;
+    font-size: 3.8125rem;
+    margin-top: 35px;
+    margin-bottom: 54px;
+}
+
+p{
+    text-align: left;
+    font-family: 'Roboto', 'sans-serif';
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+h2{
+    font-size: 2rem;
+    font-family: 'Poppins', 'sans-serif';
+    font-weight: 900;
+}
+
+.colonne1{
+    width: 400px;
+    margin-right: 10.6%;
+}
+
+.diplome_formations{
+    margin-bottom: 20px;
+}
+
+.bloc_citation{
+    position: relative;
+}
+
+.evolution{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.apo_citation1_info{
+    position: absolute;
+    width: 70px;
+    height: 60px;
+    top: -37px;
+    left: -46px;
+}
+
+.citation1{
+    line-height: 25px;
+    font-style: italic;
+    margin-top: 50px;
+    background-color: #75A6E6;
+    border-radius: 20px;
+    padding: 7.5%;
+    padding-top: 12.5%;
+    padding-bottom: 12.5%;
+    color: white;
+}
+
+.apo_citation1_all{
+    position: absolute;
+    width: 38px;
+    height: 32px;
+    bottom: 15px;
+    right: 15px;
+}
+
+.apo_citation2_info{
+    position: absolute;
+    width: 107px;
+    height: 92px;
+    top: -52px;
+    left: -35px;
+}
+
+.citation2{
+    line-height: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    margin-top: 100px;
+    margin-left: 5.5%;
+    margin-right: 5.5%;
+    background-color: #2D5388;
+    border-radius: 16px;
+    padding: 5.5%;
+    padding-top: 50px;
+    padding-bottom: 9.2%;
+    color: white;
+}
+
+.apo_citation2_all{
+    position: absolute;
+    width: 38px;
+    height: 32px;
+    right: 40px;
+    bottom: 8px;
+}
+
+.colonne2{
+   width: 545px;
+}
+
+.apo_citation3_info{
+    position: absolute;
+    width: 74px;
+    height: 64px;
+    top: -37px;
+    left: -15px;
+}
+
+.citation3{
+    line-height: 25px;
+    font-style: italic;
+    margin-top: 230px;
+    margin-left: 5.5%;
+    margin-right: 5.5%;
+    background-color: #A4C6F3;
+    border-radius: 20px;
+    padding: 5.5%;
+    padding-top: 50px;
+    padding-bottom: 9.2%;
+    color: white;
+}
+
+.citation3_dev_web{
+    line-height: 25px;
+    font-style: italic;
+    margin-top: 260px;
+    margin-left: 5.5%;
+    margin-right: 5.5%;
+    background-color: #A4C6F3;
+    border-radius: 20px;
+    padding: 5.5%;
+    padding-top: 50px;
+    padding-bottom: 9.2%;
+    color: white;
+}
+
+.apo_citation3_all{
+    position: absolute;
+    width: 40px;
+    height: 35px;
+    bottom: 8px;
+    right: 40px;
+}
+
+.presentation{
+    position: relative;
+}
+
+.personnage{
+    position: absolute;
+    height: 140px;
+    width: 140px;
+    right: 20px;
+    top: 10px;
+}
+
+.itw{
+    color: #2D5388;
+    font-family: 'Poppins', sans-serif;
+    font-size: 	2.5rem;
+    margin-bottom: 10px;
+}
+
+.prenom{
+    color: #A4C6F3;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.875rem;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.poste{
+    color: #A4C6F3;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1.25rem;
+    margin-top: 0;
+    margin-bottom: 115px;
+}
+
+.bloc_competences{
+    position: relative;
+}
+
+.competences{
+    margin-bottom: 0;
+}
+
+.diagramme{
+    width: 250px;
+    height: 250px;
+    margin-top: 58px;
+}
+
+.rectangles{
+    position: absolute;
+    left: 320px;
+    top: 100px;
+    width: 16px;
+}
+
+.rectangle_un{
+    width: 16px;
+    height: 16px;
+    background-color: #2D5388;
+    margin-bottom: 130px;
+}
+
+.rectangle_deux{
+    width: 16px;
+    height: 16px;
+    background-color: #75A6E6;
+    margin-bottom: 182px;
+}
+
+.rectangle_trois{
+    width: 16px;
+    height: 16px;
+    background-color: #A4C6F3;
+}
+
+.bloc_competences p{
+    position: absolute;
+}
+
+.capacite{
+    top: 100px;
+    left: 360px;
+    margin: 0;
+    width: 298px;
+    height: 104px;
+}
+
+.maitrise{
+    top: 243px;
+    left: 360px;
+    margin: 0;
+    width: 284px;
+    height: 144px;
+}
+
+.personnalite{
+    top: 440px;
+    left: 360px;
+    margin: 0;
+    width: 257px;
+    height: 150px;
+}
+
+.salaire{
+    margin-top: 43px;
+    margin-bottom: 30px;
+}
+
+p, .plus_infos a{
+    text-align: left;
+    font-family: 'Roboto', 'sans-serif';
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.plus_infos h2{
+    margin-top: 0;
+    margin-bottom: 48px;
+}
+
+.fleche_metier_precedent{
+    margin-right: 20px;
+}
+
+.metier_precedent{
+    display: block;
+    width: 350px;
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    margin-top: 57px;
+}
+
+.metier_suivant{
+    display: block;
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    margin-left: 70%;
+    margin-top: -48px;
+    width: 500px;
+}
+
+.fleche_metier_suivant{
+    margin-left: 20px;
+}
+
+.prefere_com{
+    display: block;
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    margin-top: 80px;
+    margin-left: 28%;
+    padding-bottom: 80px;
+}
+
+.fleche_prefere_com{
+    position: relative;
+    top: 50px;
+    right: 250px;
+}
+
+.metier_suivant_dev_web{
+    display: block;
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    margin-left: 70%;
+    margin-top: 48px;
+    width: 500px;
+}
+
+@media screen and (max-width: 1600px){
+    .titre{
+        text-align: left;
+        margin-top: 307px;
+        margin-left: 17.7%;
+        margin-bottom: 0px;
+        font-size: 5rem;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 900;
+    }
+
+    .dessin_info{
+        width: 290px;
+        height: 326px;
+        right: 12%;
+        top: 510px;
+        transition: width 1s, height 1s;
+    }
+
+    .fiche{
+        background-color: white;
+        position: relative;
+        top: 500px;
+        margin: 0 14.48%;
+        border-radius: 70px;
+        padding: 0 7.2%;
+        padding-top: 35px;
+        width: 71%;
+    }
+
+    main{
+        margin-top: 15px;
+        column-count: 2;
+        font-family: 'Roboto', sans-serif;
+        transition: height 0.5s;
+    }
+
+    p{
+        text-align: left;
+        font-family: 'Roboto', 'sans-serif';
+        font-weight: 400;
+        font-size: 0.85rem;
+        transition: font-size 0.5s;
+    }
+
+    .fiche header h1{
+        text-align: center;
+        font-family: 'Poppins', 'sans-serif';
+        font-weight: 900;
+        font-size: 3.05rem;
+        transition: font-size 0.5s;
+    }
+
+    h2{
+        font-size: 1.6rem;
+        font-family: 'Poppins', 'sans-serif';
+        font-weight: 900;
+        transition: font-size 0.5s;
+    }
+
+    .personnage{
+        position: absolute;
+        height: 112px;
+        width: 112px;
+        right: 20px;
+        top: 10px;
+        transition: width 1s, height 1s;
+    }
+
+    .itw{
+        color: #2D5388;
+        font-family: 'Roboto', sans-serif;
+        font-size: 	2rem;
+        transition: font-size 0.5s;
+    }
+    
+    .prenom{
+        color: #A4C6F3;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.5rem;
+        transition: font-size 0.5s;
+    }
+    
+    .poste{
+        color: #A4C6F3;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 1rem;
+        transition: font-size 0.5s;
+    }
+
+    .diagramme{
+        width: 166px;
+        height: 166px;
+        margin-top: 58px;
+    }
+
+    .rectangles{
+        position: absolute;
+        left: 250px;
+        top: 100px;
+        width: 16px;
+        transition: left 0.5s;
+    }
+
+    .rectangle_un{
+        width: 16px;
+        height: 16px;
+        background-color: #2D5388;
+        margin-bottom: 105px;
+    }
+    
+    .rectangle_deux{
+        width: 16px;
+        height: 16px;
+        background-color: #75A6E6;
+        margin-bottom: 145px;
+    }
+
+    .capacite{
+        top: 100px;
+        left: 280px;
+        margin: 0;
+        width: 200px;
+        transition: left 0.5s, width 0.5s;
+    }
+    
+    .maitrise{
+        top: 220px;
+        left: 280px;
+        margin: 0;
+        width: 200px;
+        transition: left 0.5s, width 0.5s;
+    }
+    
+    .personnalite{
+        top: 380px;
+        left: 280px;
+        margin: 0;
+        width: 200px;
+        transition: left 0.5s, width 0.5s;
+    }
+
+    .prefere_com {
+        position: relative;
+        display: block;
+        font-size: 2rem;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 900;
+        margin-top: 80px;
+        margin-left: 22%;
+        margin-bottom: 80px;
+        margin-right: 22%;
+        text-align: center;
+        padding-bottom: 120px;
+    }
+
+    .fleche_prefere_com {
+        position: absolute;
+        top: 100px;
+        right: 50%;
+    }
+}
+
+@media screen and (max-width: 1320px){
+    .titre{
+        text-align: left;
+        margin-top: 307px;
+        margin-left: 10%;
+        margin-bottom: 0px;
+        font-size: 4rem;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 900;
+    }
+
+    .dessin_info{
+        width: 290px;
+        height: 326px;
+        right: 10%;
+        top: 510px;
+        transition: width 1s, height 1s;
+    }
+
+    .fiche{
+        background-color: white;
+        position: relative;
+        top: 500px;
+        margin: 0 14.48%;
+        border-radius: 70px;
+        padding: 0 7.2%;
+        padding-top: 35px;
+        width: 71%;
+    }
+
+    main{
+        margin-top: 15px;
+        column-count: 2;
+        font-family: 'Roboto', sans-serif;
+        transition: height 0.5s;
+    }
+
+    p{
+        text-align: left;
+        font-family: 'Roboto', 'sans-serif';
+        font-weight: 400;
+        font-size: 0.85rem;
+        transition: font-size 0.5s;
+    }
+
+    .fiche header h1{
+        text-align: center;
+        font-family: 'Poppins', 'sans-serif';
+        font-weight: 900;
+        font-size: 3.05rem;
+        transition: font-size 0.5s;
+    }
+
+    h2{
+        font-size: 1.6rem;
+        font-family: 'Poppins', 'sans-serif';
+        font-weight: 900;
+        transition: font-size 0.5s;
+    }
+
+    .personnage{
+        position: absolute;
+        height: 80px;
+        width: 80px;
+        right: -50px;
+        top: 10px;
+        transition: width 1s, height 1s;
+    }
+
+    .itw{
+        color: #2D5388;
+        font-family: 'Roboto', sans-serif;
+        font-size: 	2rem;
+        transition: font-size 0.5s;
+    }
+    
+    .prenom{
+        color: #A4C6F3;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.5rem;
+        transition: font-size 0.5s;
+    }
+    
+    .poste{
+        color: #A4C6F3;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 1rem;
+        transition: font-size 0.5s;
+    }
+
+
+    .apo_citation2_info{
+        position: absolute;
+        width: 71.3px;
+        height: 61.3px;
+        top: -35px;
+        left: -25px;
+    }
+
+    .apo_citation3_info{
+        position: absolute;
+        width: 49.3px;
+        height: 42.6px;
+        top: -20px;
+        left: -10px;
+    }
+
+    .diagramme{
+        width: 166px;
+        height: 166px;
+        margin-top: 58px;
+    }
+
+    .rectangles{
+        position: absolute;
+        left: 200px;
+        top: 100px;
+        width: 16px;
+        transition: left 0.5s;
+    }
+
+    .rectangle_un{
+        width: 16px;
+        height: 16px;
+        background-color: #2D5388;
+        margin-bottom: 130px;
+    }
+    
+    .rectangle_deux{
+        width: 16px;
+        height: 16px;
+        background-color: #75A6E6;
+        margin-bottom: 180px;
+    }
+
+    .capacite{
+        top: 100px;
+        left: 220px;
+        margin: 0;
+        width: 150px;
+        transition: left 0.5s, width 0.5s;
+    }
+    
+    .maitrise{
+        top: 245px;
+        left: 220px;
+        margin: 0;
+        width: 150px;
+        transition: left 0.5s, width 0.5s;
+    }
+    
+    .personnalite{
+        top: 443px;
+        left: 220px;
+        margin: 0;
+        width: 150px;
+        transition: left 0.5s, width 0.5s;
+    }
+
+    .citation3{
+        line-height: 25px;
+        font-style: italic;
+        margin-top: 300px;
+        margin-left: 5.5%;
+        margin-right: 5.5%;
+        background-color: #A4C6F3;
+        border-radius: 20px;
+        padding: 5.5%;
+        padding-top: 50px;
+        padding-bottom: 9.2%;
+        color: white;
+    }
+    
+    .citation3_dev_web{
+        line-height: 25px;
+        font-style: italic;
+        margin-top: 350px;
+        margin-left: 5.5%;
+        margin-right: 5.5%;
+        background-color: #A4C6F3;
+        border-radius: 20px;
+        padding: 5.5%;
+        padding-top: 50px;
+        padding-bottom: 9.2%;
+        color: white;
+    }
+
+    .apo_citation1_all{
+        position: absolute;
+        width: 25.3px;
+        height: 21.3px;
+        bottom: 9px;
+        right: 15px;
+    }
+    .apo_citation2_all{
+        position: absolute;
+        width: 25.3px;
+        height: 21.3px;
+        right: 40px;
+        bottom: 8px;
+    }
+
+    .apo_citation3_all{
+        position: absolute;
+        width: 25.3px;
+        height: 21.3px;
+        bottom: 8px;
+        right: 40px;
+    }
+}

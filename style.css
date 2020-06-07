@@ -1,0 +1,248 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-width: 1000px;
+}
+
+/*NAVIGATION*/
+nav {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 1.875rem;
+
+    height: 140px;
+}
+
+nav a img {
+    width: 216px;
+    height: 101px;
+    margin: 39px 0 0 46px;
+}
+
+nav a[href="page_a-propos.html"] {
+    width: 118px;
+    height: 37px;
+    margin: 55px 70px 0 0;
+    float: right;
+}
+
+nav a[href="page_contact.html"] {
+    width: 102px;
+    height: 37px;
+    margin: 55px 45px 0 0;
+    float: right;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+/*PLACEMENT, DIMENSION, POLICE D'ECRITURE DES ELEMENTS PRINCIPAUX*/
+main {
+    background-image: url(img/back_accueil.svg);
+    background-repeat: no-repeat;
+    background-size: 105%;
+
+    border: rgba(0, 0, 0, 0) solid 1px;
+    color: white;
+    margin-top: 5.73%;
+
+    min-width: 1000px;
+}
+
+/*TRAVAIL SUR LE H1 DANS LE MAIN*/
+main h1 {
+    margin: 8.603% 0 0 3.963%;
+
+    font-size: 4.25rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+
+    width: 36.98vw;
+    min-width: 400px;
+}
+
+/*TRAVAIL SUR LE TEXTE DANS LE MAIN*/
+main .box {
+    text-align: center;
+    width: 42.9105vw;
+    margin: 0 0 4.954% 4.954%;
+    min-width: 500px;
+}
+
+/*TRAVAIL SUR LE TEXTE PARTIE 1 DANS LE MAIN*/
+main .box .p1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5625rem;
+    font-weight: 400;
+
+    margin: 5.98% 0 5.98% 0;
+}
+
+/*TRAVAIL SUR LE TEXTE PARTIE 2 DANS LE MAIN*/
+main .p2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5625rem;
+    font-weight: 400;
+
+    margin: 5.214% 0 3.129% 0;
+}
+
+/*BOUTON "C'est Parti"*/
+.bouton1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.1875rem;
+    font-weight: 600;
+
+    display: inline-block;
+
+    text-decoration: none;
+    background-color: white;
+    color: black;
+
+    border-radius: 50px;
+    padding: 1.74% 5.435%;
+
+    position: relative;
+    transition: all 0.5s;
+}
+
+.bouton1::after {
+    content: ">";
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+
+    position: absolute;
+    left: 71.43%;
+    top: 7.65%;
+    right: 5%;
+    bottom: 0;
+
+    opacity: 0;
+}
+
+.bouton1:hover {
+    border-radius: 50px;
+    box-shadow: 0 6px 15px #42424261;
+    padding: 16px 100px 16px 50px;
+
+    transition: all 0.5s;
+}
+
+.bouton1:hover::after {
+    opacity: 1;
+    transition: all 0.5s;
+}
+
+/*BOUTON INFORMATIQUE*/
+.bouton2 {
+    font-size: 1.5625rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+
+    background-color: #A4C6F3;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+
+    border-radius: 50px;
+    margin: 0 2.37% 0 0;
+    padding: 10px;
+
+    transition: all 0.5s;
+    position: relative;
+}
+
+.bouton2::after {
+    content: ">";
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+
+    position: absolute;
+    left: 85%;
+    top: 10%;
+    right: 5%;
+    bottom: 0;
+
+    opacity: 0;
+}
+
+.bouton2:hover {
+    box-shadow: 0px 6px 15px #42424261;
+    padding: 10px 40px 10px 24px;
+    transition: all 0.5s;
+}
+
+.bouton2:hover::after {
+    opacity: 1;
+    transition: all 0.5s;
+}
+
+/*BOUTON COMMUNICATION*/
+.bouton3 {
+    font-size: 1.5625rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+
+    background-color: #F48574;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+
+    border-radius: 50px;
+    padding: 10px;
+
+    transition: all 0.5s;
+    position: relative;
+}
+
+.bouton3::after {
+    content: ">";
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+
+    position: absolute;
+    left: 85%;
+    top: 10%;
+    right: 5%;
+    bottom: 0;
+
+    opacity: 0;
+}
+
+.bouton3:hover {
+    box-shadow: 0px 6px 15px #42424261;
+    padding: 10px 40px 10px 24px;
+    transition: all 0.5s;
+}
+
+.bouton3:hover::after {
+    opacity: 1;
+    transition: all 0.5s;
+}
+
+/*TRAVAIL SUR LE H1 DANS LE HEADER*/
+.voyante {
+    position: absolute;
+    top: 18.98vh;
+    left: 57.29vw;
+    height: 29.7vw;
+    width: 26.3vw;
+    min-width: 265px;
+    min-height: 300px;
+}
+
+/*AJOUT DE MEDIAS QUERIES POUR LE FLUIDITE*/
+@media screen and (max-width: 1000px) {
+    .voyante {
+        position: absolute;
+        top: 190px;
+        left: 600px;
+    }
+}

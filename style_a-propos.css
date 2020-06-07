@@ -1,0 +1,126 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-width: 1000px;
+}
+
+/*NAVIGATION*/
+nav {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 1.875rem;
+
+    height: 140px;
+}
+
+nav a img {
+    width: 216px;
+    height: 101px;
+    margin: 39px 0 0 46px;
+}
+
+nav a[href="page_a-propos.html"] {
+    width: 118px;
+    height: 37px;
+    margin: 55px 70px 0 0;
+    float: right;
+}
+
+nav a[href="page_contact.html"] {
+    width: 102px;
+    height: 37px;
+    margin: 55px 45px 0 0;
+    float: right;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+/*PLACEMENT, DIMENSION, POLICE D'ECRITURE DES ELEMENTS PRINCIPAUX*/
+main {
+    font-family: 'Poppins', sans-serif;
+    background-image: url(img/back_a-propos.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0 55px 55px 0;
+    padding: 2.344% 5.209% 3.3855% 18.49%;
+    margin: 5.73% 0 9.896% 0;
+    width: 86.71875%;
+    min-width: 1200px;
+}
+
+/*TRAVAIL SUR LE H1 DANS LE MAIN*/
+h1 {
+    font-weight: 800;
+    font-size: 4.375rem;
+    color: white;
+    margin: 0 0 0 160px;
+    height: 100px;
+}
+
+/*TRAVAIL SUR LE TEXTE DANS LE MAIN*/
+.text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 1.5625rem;
+    color: white;
+    margin: 0 0 90px 0;
+}
+
+/*TRAVAIL DES PROFILS PLUS SPECIALEMENT LE PRENOM DES PROFILS*/
+.prenom {
+    font-weight: 800;
+    font-size: 3.4375rem;
+    margin: -13px 0 0 0;
+    height: 70px;
+}
+
+/*TRAVAIL DES PROFILS PLUS SPECIALEMENT LE NOM DES PROFILS*/
+.nom {
+    font-weight: 300;
+    font-size: 2.1875rem;
+    margin: -10px 0 30px 0;
+    height: 50px;
+}
+
+/*TRAVAIL DES PROFILS PLUS SPECIALEMENT LES LIENS DES PROFILS*/
+.lien-cv {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 1.25rem;
+    text-decoration: none;
+    color: black;
+}
+
+/*TRAVAIL DES PROFILS*/
+.equipe {
+    columns: 4;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    height: 395px;
+}
+
+/*TRAVAIL DES PROFILS PLUS SPECIALEMENT LES AVATAR DES PROFILS*/
+.avatar {
+    width: 210px;
+    height: 210px;
+}
+
+/*DIMENSION DES PROFILS*/
+.personne1,
+.personne4 {
+    width: 210px;
+}
+
+.personne2,
+.personne3 {
+    width: 240px;
+}

@@ -1,0 +1,232 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-width: 1000px;
+}
+
+/*NAVIGATION*/
+nav {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 1.875rem;
+
+    height: 140px;
+}
+
+nav a img {
+    width: 216px;
+    height: 101px;
+    margin: 39px 0 0 46px;
+}
+
+nav a[href="page_a-propos.html"] {
+    width: 118px;
+    height: 37px;
+    margin: 55px 70px 0 0;
+    float: right;
+}
+
+nav a[href="page_contact.html"] {
+    width: 102px;
+    height: 37px;
+    margin: 55px 45px 0 0;
+    float: right;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+/*POLICE D'ECRITURE DU HEADER*/
+header {
+    font-family: 'Poppins', sans-serif;
+}
+
+/*TRAVAIL SUR LE H1 DANS LE HEADER*/
+header h1 {
+    height: 11.815vh;
+
+    font-weight: 800;
+    font-size: 4.375rem;
+
+    margin: 8.073% 0 4.375% 10.417%;
+    min-width: 1000px;
+}
+
+/*TRAVAIL SUR L'IMAGE DE LA VOYANTE DANS LE HEADER*/
+header h1+img {
+    width: 250px;
+    height: 280px;
+
+    position: absolute;
+    top: 36.28%;
+    left: 56%;
+}
+
+/*PLACEMENT, DIMENSION, POLICE D'ECRITURE DES ELEMENTS PRINCIPAUX*/
+form,
+main {
+    width: 63.2vw;
+    height: 46.4vh;
+    font-family: 'Poppins', sans-serif;
+
+    background: rgb(164, 221, 243);
+    background: linear-gradient(232deg, rgba(164, 221, 243, 1) 0%, rgba(164, 198, 243, 1) 33.3333%, rgba(117, 166, 230, 1) 66.6666%, rgba(45, 83, 136, 1) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    border-radius: 0 70px 70px 0;
+    min-width: 1000px;
+    min-height: 450px;
+}
+
+/*GESTION DE LA POLICE D'ECRITURE*/
+div,
+p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 0.9375rem;
+}
+
+/*GESTION DES LABELS ET INPUT*/
+div:nth-child(1) {
+    padding: 4.429% 0 0 42.362%;
+}
+
+div:nth-child(2) {
+    padding: 1.477% 0 0 40.591%;
+}
+
+div:nth-child(3) {
+    padding: 1.477% 0 0 37.639%;
+}
+
+/*GESTION ET DIMENSION DES LABELS*/
+label {
+    display: inline-block;
+}
+
+label[for="nom"] {
+    width: 37px;
+}
+
+label[for="prenom"] {
+    width: 62px;
+}
+
+label[for="email"] {
+    width: 103px;
+}
+
+/*GESTION ET DIMENSION DES INPUT*/
+input {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 0.9375rem;
+
+    height: 25px;
+    border: 0;
+    border-radius: 10px;
+    padding: 0;
+    margin-left: 2.562%;
+}
+
+input[name="nom"],
+input[name="prenom"] {
+    width: 187px;
+}
+
+input[name="email"] {
+    width: 470px;
+}
+
+/*GESTION DU BOUTON "ENVOYER"*/
+.envoyer {
+    width: 90px;
+    height: 30px;
+
+    font-size: 1.25rem;
+    color: white;
+    background-color: unset;
+    outline: none;
+
+    float: right;
+    margin-right: 27px;
+}
+
+/*GESTION DE L'ESPACE TEXTE*/
+textarea {
+    width: 28.918vw;
+    height: 16.803vh;
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 0.9375rem;
+
+    border: 0;
+    border-radius: 50px;
+    padding: 23px 40px 23px 40px;
+    margin: 4.0599% 0 0 45.757%;
+    min-width: 515px;
+    min-height: 175px;
+}
+
+/*MARGIN DU PARAGRAPHE*/
+p {
+    margin: 1.412%;
+}
+
+/*PLACEMENT DES ELEMENTS PRINCIPAUX*/
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*TRAVAIL SUR LES LIENS DANS LE MAIN*/
+main a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 250px;
+    height: 250px;
+
+    border-radius: 150px;
+
+    background-color: white;
+    color: black;
+
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 2.1875rem;
+}
+
+/*AJOUT DE MEDIAS QUERIES POUR LE FLUIDITE*/
+@media screen and (max-width: 1800px){
+    header h1+img {
+        top: 290px;
+        left: 1005px;
+    }
+}
+
+@media screen and (max-width: 1700px){
+    header h1+img {
+        top: 350px;
+        left: 950px;
+    }
+}
+
+@media screen and (max-width: 1600px){
+    header h1+img {
+        top: 350px;
+        left: 865px;
+    }
+}

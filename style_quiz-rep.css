@@ -1,0 +1,170 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+    background-image: url(img/back_quiz-rep.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top -8% left 0;
+    min-width: 1000px;
+}
+
+/*NAVIGATION*/
+nav {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 1.875rem;
+
+    height: 140px;
+}
+
+nav a img {
+    width: 216px;
+    height: 101px;
+    margin: 39px 0 0 46px;
+}
+
+nav a[href="page_a-propos.html"] {
+    width: 118px;
+    height: 37px;
+    margin: 55px 70px 0 0;
+    float: right;
+}
+
+nav a[href="page_contact.html"] {
+    width: 102px;
+    height: 37px;
+    margin: 55px 45px 0 0;
+    float: right;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+/*AJOUT DE LA POLICE D'ECRITURE*/
+header,
+main {
+    font-family: 'Poppins', sans-serif;
+}
+
+/*DIMENSION DU HEADER*/
+header {
+    height: 59.67vh;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+/*TRAVAIL SUR L'IMAGE DE LA VOYANTE DANS LE HEADER*/
+header>img {
+    width: 22.155vw;
+    height: 24.954vw;
+
+    margin: -2.604vw 0 0 66.9277vw;
+    min-width: 225px;
+    min-height: 245px;
+}
+
+/*TRAVAIL SUR LE H1 DANS LE HEADER*/
+header h1 {
+    font-size: 4.375rem;
+
+    margin: 0;
+
+    position: absolute;
+    left: 13.883%;
+    top: 31.029%;
+    min-width: 1000px;
+}
+
+/*TRAVAIL SUR LE H2 DANS LE HEADER*/
+header h2 {
+    font-weight: 500;
+    font-size: 2.5rem;
+    color: white;
+
+    margin: 0;
+
+    position: absolute;
+    left: 28%;
+    top: 55.942%;
+    min-width: 1000px;
+}
+
+/*PLACEMENT DES ELEMENTS PRINCIPAUX*/
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*TRAVAIL SUR LE H1 DANS LE MAIN*/
+main h1 {
+    font-size: 5rem;
+    color: white;
+    text-align: center;
+
+    margin: 0 0 0 -300px;
+}
+
+/*TRAVAIL SUR LES LIENS DANS LE MAIN*/
+main a {
+    font-size: 1.6875rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+
+    margin: 7.292% 0 110px 65.625%;
+}
+
+main img {
+    margin-left: 20px;
+}
+
+/*AJOUT DE MEDIAS QUERIES POUR LE FLUIDITE*/
+@media screen and (max-width:1790px) {
+    body {
+        background-position: top -10% left 0;
+    }
+}
+
+@media screen and (max-width:1150px) {
+    body {
+        background-position: top -17.5% left 0;
+    }
+
+    main h1 {
+        font-size: 5.875rem;
+    }
+}
+
+@media screen and (max-width:1475px) {
+    header h1 {
+        font-size: 3.875rem;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    header h1 {
+        left: 138px;
+        top: 253px;
+    }
+
+    header h2 {
+        left: 280px;
+        top: 380px;
+    }
+
+    body {
+        background-size: 1000px;
+    }
+}
